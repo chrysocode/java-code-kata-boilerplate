@@ -128,7 +128,18 @@ Update your fork as follows. It is assumed you did not commit in the "master" br
 git fetch origin master && git rebase -p --onto origin/master master develop && git branch -f master origin/master
 ```
 
-## Definition of Done (DoD)
+## Working on a code kata
+
+### Definition of Ready (DoR)
+
+What should be a DoR for the code katas, that is to say to be ready before coding, whether at home or in a coding dojo, while using this code boilerplate?
+- [Git](https://git-scm.com) is ready-to-use.
+- The [Java SE Development Kit](https://www.oracle.com/technetwork/java/javase/downloads/index.html) is installed.
+- The IDE is installed and configured, preferably [IntelliJ IDEA](https://www.jetbrains.com/idea).
+- [Apache Maven](https://maven.apache.org) is ready-to-use.
+- The build of the code kata boilerplate is successful, in command line as well as in the IDE.
+
+### Definition of Done (DoD)
 
 What should be a DoD for the code katas?
 - The kata is done by applying [Test-Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development).
